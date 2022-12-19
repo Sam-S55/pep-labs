@@ -33,8 +33,8 @@
     checkoutLocation: pep-gitpod-workspace
     upstreamRemoteURI: https://github.com/revature-curriculum/pep-gitpod-workspace.git
   :gitpod_workspace:
-    :workspace_id: sams55-pepgitpodworkspa-m03jqdf6qii
-    :workspace_url: https://sams55-pepgitpodworkspa-m03jqdf6qii.ws-us79.gitpod.io
+    :workspace_id: sams55-pepgitpodworkspa-4yn3jdu7enr
+    :workspace_url: https://sams55-pepgitpodworkspa-4yn3jdu7enr.ws-us79.gitpod.io
     :repo_root: "/workspace/pep-gitpod-workspace"
     :git_user_email: swai554m@gmail.com
     :git_user_name: Sam-S55
