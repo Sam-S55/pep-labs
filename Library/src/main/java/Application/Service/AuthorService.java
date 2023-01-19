@@ -40,7 +40,8 @@ public class AuthorService {
      * @return all authors
      */
     public List<Author> getAllAuthors() {
-        return null;
+        List<Author> authors = AuthorDAO.getAllAuthors();
+        return authors;
     }
     /**
      * TODO: Use the AuthorDAO to persist an author. The given Author will not have an id provided.
