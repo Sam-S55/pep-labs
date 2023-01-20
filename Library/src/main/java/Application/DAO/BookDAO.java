@@ -88,7 +88,7 @@ public class BookDAO {
         Connection connection = ConnectionUtil.getConnection();
         try {
             //Write SQL logic here
-            String sql = "INSERT INTO Book (isbn,author_id,title,copies_available) VALUES (?,?,?,?)" ;
+            String sql = "INSERT INTO Book VALUES (?,?,?,?)" ;
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
             //write preparedStatement's setString and setInt methods here
