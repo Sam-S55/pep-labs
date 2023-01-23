@@ -18,5 +18,15 @@
 public class Shiba extends Dog{
 
 //    override sound() here
+    public String sound() {
+        return "Yo 'toy puesto pa' ti y tú te me quita'"+
+        " Diablo, qué piquete la chamaquita"+
+        " El corazón lo puso en la neverita"+
+        " Dice que este verano se queda solita"+
+        " Yo 'toy puesto pa' ti y tú te me quita'"+
+        " Diablo, qué piquete la chamaquita"+
+        " El corazón lo puso en la neverita"+
+        " Dice que este verano se queda solita";
+    }
 
 }
