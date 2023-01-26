@@ -24,6 +24,7 @@ public class MostCommonCharacter {
         for (Entry<Character, Integer> entry : count.entrySet()) {
             if (entry.getValue() == maxvalue) {
                 common = entry.getKey();
+                break;
             }
         }
         return common;
