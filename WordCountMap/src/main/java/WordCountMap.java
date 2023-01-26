@@ -21,7 +21,7 @@ public class WordCountMap {
             wordList.put(wl[i],0);
         }
         for (int i=0; i<wl.length; i++) {
-            
+            wordList.put(wl[i],wordList.get(wl[i])+1);
         }
         return wordList;
     }
