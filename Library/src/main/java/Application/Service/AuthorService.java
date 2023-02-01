@@ -40,7 +40,7 @@ public class AuthorService {
      * @return all authors
      */
     public List<Author> getAllAuthors() {
-        List<Author> authors = AuthorDAO.getAllAuthors();
+        List<Author> authors = authorDAO.getAllAuthors();
         return authors;
     }
     /**
